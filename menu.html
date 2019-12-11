@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Меню</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Pavel Tsvetov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <!-- Favicon import -->
+        <link rel="shortcut icon" href="images/favicon.png">
+
+        <!-- CSS imports -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-responsive.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+    </head>
+    <body class="appear-animate">
+        <!-- Page Loader -->
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+
+        <div class="page" id="top">
+            <!-- Home Section -->
+            <section class="page-section bg-dark bg-dark-alfa-70" data-background="images/restaurant/potatoes.jpg" id="home">
+                <div class="relative container">
+                    <!-- Hero Content -->
+                    <div class="home-content">
+                        <div class="home-text">
+                            <h1 class="hs-line-14 font-alt mb-0">Меню</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Navbar -->
+            <nav class="main-nav dark transparent stick-fixed">
+                <div class="full-wrapper relative clearfix">
+                        <div class="nav-logo-wrap local-scroll">
+                            <a href="index.html" class="logo">
+                                <svg class="control_svg" width="18" height="26" viewBox="0 0 18 26" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.66 0l.134.002h1.336c2.639 0 3.745.464 4.994 1.428 1.819 1.424 2.105 3.492 2.105 4.525 0 1.283-.393 2.638-1.356 3.742-.714.856-1.955 2.097-4.388 2.388-1.663.2-2.891.127-3.506.061v-1.306c.273.038.676.074 1.222.074 1.656 0 2.829-.827 3.543-1.719.81-.983.98-1.909 1.015-2.737h-4.555v-1.282h4.515c-.116-.866-.448-1.528-.985-2.179-1.035-1.283-2.499-1.497-3.462-1.497l-6.505-.002-.768-1.498h6.66zm-6.317 26l.804-1.564v-21.844h3.55v21.82h2.508v-8.523h3.276v8.514h2.838v-3.878c0-2.351-.122-5.622-2.77-7.311l1.542-.566c3.194 1.186 4.791 4.283 4.791 8.362v3.428l.804 1.562h-17.344z" fill="#fff"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist local-scroll">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li>
+                                <a href="menu.html" class="mn-has-sub">Меню<i class="fa fa-angle-down"></i></a>
+                                <ul class="mn-sub mn-has-multi">
+                                    <div class="arrow" style="transform: rotate(45deg);"></div>
+                                    <li class="mn-sub-multi">
+                                        <ul>
+                                            <li>
+                                                <a href="menu.html">Наше меню</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.hse.ru/mirror/pubs/share/321435987" target="_blank">Скачать меню</a>
+                                            </li>
+                                            </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Галерея</a></li>
+                            <li>
+                                <a href="#" class="mn-has-sub">Блог<i class="fa fa-angle-down"></i></a>
+                                    <ul class="mn-sub mn-has-multi">
+                                        <div class="arrow" style="transform: rotate(45deg);"></div>
+                                        <li class="mn-sub-multi">
+                                            <ul>
+                                                <li>
+                                                    <a href="news.html">Новости</a>
+                                                </li>
+                                                <li>
+                                                    <a href="recipes.html">Рецепты</a>
+                                                </li>
+                                                </ul>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li><a href="location.html">Контакты</a></li>
+                            <!-- Button -->
+                            <li>
+                                <a href="reservations.html" target="_blank">
+                                    <span class="link_on_mobile btn btn-mod btn-circle btn-w">
+                                        Бронирование
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navigation panel -->
+            <!-- Menu Section -->
+            <section class="page-section" id="menu">
+                <div class="container relative">
+                    <!-- Row -->
+                    <div class="row">
+                        <!-- Col -->
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <!-- Nav Tabs -->
+                            <div class="align-center mb-30 mb-xs-30">
+                                <ul class="nav nav-tabs tpl-minimal-tabs animate">
+                                    <li class="active">
+                                        <a href="#mini-one" data-toggle="tab">Завтрак</a>
+                                    </li>
+                                    <li>
+                                        <a href="#mini-two" data-toggle="tab">Основное меню</a>
+                                    </li>
+                                    <li>
+                                        <a href="#mini-three" data-toggle="tab">Бизнес-ланчи</a>
+                                    </li>
+                                    <li>
+                                        <a href="#mini-four" data-toggle="tab">Напитки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Nav Tabs -->
+                            <!-- Tab panes -->
+                            <div class="tab-content tpl-minimal-tabs-cont section-text">
+                                <div class="tab-pane fade in active" id="mini-one">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Блюда
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Оладьи (со сметаной, сгущёнкой, вареньем)
+                                                    <div class="small">
+                                                        Fritters (with sour cream, condensed sweet milk, jam)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    260 ккал
+                                                </td>
+                                                <td>
+                                                    120 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Блинчики с ветчиной и сыром
+                                                    <div class="small">
+                                                        Pancakes with ham and cheese
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    263 ккал
+                                                </td>
+                                                <td>
+                                                    75 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;45.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Блинчики с творогом
+                                                    <div class="small">
+                                                        Pancakes with ricotta
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    241 ккал
+                                                </td>
+                                                <td>
+                                                    75 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Сырники (со сметаной, сгущёнкой, вареньем
+                                                    <div class="small">
+                                                        Fried cheescakes (with sour cream, sweet condensed milk, jam)                                                   </div>
+                                                </td>
+                                                <td>
+                                                    183 ккал
+                                                </td>
+                                                <td>
+                                                    120 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Напитки
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Компот из свежемороженых ягод
+                                                    <div class="small">
+                                                        Berry drink (currant)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    143 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Зеленый чай Greenfield (с сахаром / без сахара)
+                                                    <div class="small">
+                                                        Greenfield green tea (with or w/o sugar)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;20.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Черный чай Greenfield (с сахаром / без сахара)
+                                                    <div class="small">
+                                                        Greenfield black tea (with or w/o sugar)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;20.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Кофе растворимый
+                                                    <div class="small">
+                                                        Sublimated coffee
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="mini-two">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Салаты
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Салат а-ля «Цезарь» с курицей / "Caesar" salad with chicken
+                                                    <div class="small">
+                                                        (филе куриное, капуста китайская,  сыр, соус соевый, майонез, хлеб пшеничный )                                                    </div>
+                                                    </div>
+                                                    </td>
+                                                <td>
+                                                    180 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат "Оливье" классический / Russian potato salad
+                                                    <div class="small">
+                                                        (ветчина, картофель, сол. огурец , зел. горошек, морковь, яйцо, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    198 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат Сельдь под шубой / Herring with vegetables salad
+                                                    <div class="small">
+                                                        (сельдь, свекла, картофель, морковь отварные, майонез, зелень)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    141 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат "Крабовый"с сельдереем / Salad with crab sticks and celery
+                                                    <div class="small">
+                                                        (крабовое мясо, огурец свеж., сельдерей, салат, кукуруза, яйцо, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    183 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат "Зелёный" / Chinese salad with cucumbers
+                                                    <div class="small">
+                                                        (салат китайский , свежий огурец , лук зелёный , сметана)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    195 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат из свеклы с майонезом и сыром / Beet salad with cheese and mayonnaise
+                                                    <div class="small">
+                                                        (свекла отварная, майонез, сыр)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    112 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;45.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат «Зимний» / Salad with potato, carrots, green peas and mayonnaise
+                                                    <div class="small">
+                                                        (картофель, морковь, зелёный горошек, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    185 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат «Греческий» / Greek salad
+                                                    <div class="small">
+                                                        (огурцы, помидоры, маслины, сыр Фета, масло оливковое, лук салатный)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    116 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Винегрет овощной / Vinaigrette (beet, carrots, potato, onion, oil)
+                                                    <div class="small">
+                                                        (свекла, морковь, картофель, лук,  масло)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    122 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Первые блюда
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Борщ с капустой и картофелем / Borscht
+                                                    <div class="small">
+                                                        (свекла, капуста, картофель, морковь, лук-репка, томат паста, уксус, свинина, ветчина, сосиски, сметана)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    127 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Суп гороховый / Peas soup
+                                                    <div class="small">
+                                                        (картофель, горох, лук-репка, морковь, масло растительное) 
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    199 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Суп-лапша с курицей / Chicken soup with noodles
+                                                    <div class="small">
+                                                        (куриные окорочка,  вермишель, лук-репка, морковь, масло растительное)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    145 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Суп фасолевый с картофелем и овощами / Soup with beans, potatoes and vegetables
+                                                    <div class="small">
+                                                        (картофель, лук, морковь, фасоль, перец, томаты)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    120 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Суп «Харчо» с мясом / Meat Kharcho soup
+                                                    <div class="small">
+                                                        (куриные окорочка,  вермишель, лук-репка, морковь, масло растительное)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    225 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Суп-пюре грибной / Mashed mushrooms soup
+                                                    <div class="small">
+                                                        (шампиньоны с/м, лук, морковь, картофель. масло слив, молоко)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    135 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Солянка сборная мясная по-домашнему / Soup "Solyanka" with chopped meat
+                                                    <div class="small">
+                                                        (свинина, ветчина, картофель, лук-репка, огурцы соленые, маслины, оливки, лимон, томат. паста, масло растительное, сметана)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    212 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;80.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Щи со свежей капустой и картофелем / Russian cabbage soup with potatoes
+                                                    <div class="small">
+                                                        (картофель, капуста, морковь, лук, томат, специи, сметана)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    126 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Вторые блюда
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Рыба, запечённая по-московски / Baked fish
+                                                    <div class="small">
+                                                        (рыба, яйцо, картофель, соус бешамель)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    320 ккал
+                                                </td>
+                                                <td>
+                                                    250 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;150.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Шницель из свинины / Pork Schnitzel
+                                                    <div class="small">
+                                                        (свинина, яйцо, панировочные сухари, масло)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    245 ккал
+                                                </td>
+                                                <td>
+                                                    120 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Филе куриное запечённое с овощами / Chicken fillet baked with tomato
+                                                    <div class="small">
+                                                        (куриное филе, томаты, масло растительное, сыр, лук пассерованный, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    343 ккал
+                                                </td>
+                                                <td>
+                                                    130 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Плов из свинины / Pilaf with pork
+                                                    <div class="small">
+                                                        (свинина, рис, масло растительное, морковь, лук, специи)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    186 ккал
+                                                </td>
+                                                <td>
+                                                    200 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Котлета куриная / Chicken minced cutlet                                                    </td>
+                                                <td>
+                                                    230 ккал
+                                                </td>
+                                                <td>
+                                                    80 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;90.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Филе куриное отварное с сельдереем / Boiled chicken fillet                                                    </td>
+                                                <td>
+                                                    181 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Капуста тушёная с сосисками / Cabbage stewed with sausages
+                                                    <div class="small">
+                                                        (капуста, морковь, лук, сосиски, томат)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    95 ккал
+                                                </td>
+                                                <td>
+                                                    200 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;80.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Паста «Карбонаре» с ветчиной / Carbonara spaghetti
+                                                    <div class="small">
+                                                        (паста, соус "Бешамель" специи, ветчина)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    233 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Запеканка картофельная с мясом/Potato pudding with meat
+                                                </td>
+                                                <td>
+                                                    210 ккал
+                                                </td>
+                                                <td>
+                                                    200 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Жаркое по-домашнему из свинины / Pork stewed in "home-cooked" style
+                                                    <div class="small">
+                                                        (свинина, картофель, лук, морковь, томат, специи)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    170 ккал
+                                                </td>
+                                                <td>
+                                                    250 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;150.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Шницель рубленый по-столичному / Chicken Schnitzel chopped
+                                                    <div class="small">
+                                                        (куриное филе, масло, яйцо, белый хлеб)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    173 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Биточек куриный паровой с овощами / Steamed chicken minced cutlet with vegetables
+                                                    <div class="small">
+                                                        (филе куриное, морковь, горошек, кукуруза)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    131 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Филе куриное запеченное с грибами / Chicken fillet baked with mushrooms
+                                                    <div class="small">
+                                                        (куриное филе, шампиньоны консервированные, масло растительное, сыр, лук пассерованный, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    265 ккал
+                                                </td>
+                                                <td>
+                                                    130 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Плескавица по-сербски с соусом барбекю / Serbian style Pljeskavica with barbecue sauce
+                                                    <div class="small">
+                                                        (фарш свиной, сыр, ветчина, специи, соус барбекю)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    247 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Рыба жареная «Бризоль» / Fried fish "Briezol"
+                                                    <div class="small">
+                                                        (филе рыбы, яйцо, мука, специи)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    123 ккал
+                                                </td>
+                                                <td>
+                                                    125 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Тефтели куриные «Ёжики» соус томатный / Chicken meatballs with tomato sauce
+                                                    <div class="small">
+                                                        (фарш куриный, рис, лук, мука, томатный соус)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    195 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Поджарка из свинины  / Fried Pork
+                                                    <div class="small">
+                                                        (свинина, масло растительное, лук-репка, томат. паста)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    533 ккал
+                                                </td>
+                                                <td>
+                                                    75 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Печень жареная с луком / Liver fried with onions
+                                                </td>
+                                                <td>
+                                                    145 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;100.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Отварной язык / boiled tongue
+                                                </td>
+                                                <td>
+                                                    155 ккал
+                                                </td>
+                                                <td>
+                                                    80 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;120.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Куриные крылышки, маринованные и жареные / Fried chicken wings
+                                                    <div class="small">
+                                                        (крылья куриные, маринад, специи)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    255 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;100.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Кебаб в лаваше с овощами и маринованным луком / Kebab in lavash with vegetables
+                                                    <div class="small">
+                                                        (фарш куриный, лаваш, лук, помидор, соус, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    247 ккал
+                                                </td>
+                                                <td>
+                                                   80 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;130.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    "Кордон Блю" из курицы с ветчиной и сыром / Chicken Cordon Blue with ham and cheese
+                                                    <div class="small">
+                                                        (куриное филе, ветчина, сыр, растительное, яйцо, хлеб пшеничный)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    465 ккал
+                                                </td>
+                                                <td>
+                                                    110 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;150.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Куриная ножка жареная / Chicken's leg fried
+                                                </td>
+                                                <td>
+                                                    255 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;100.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Гарниры
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Макаронные изделия отварные / Boiled pasta
+                                                </td>
+                                                <td>
+                                                    221 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Рис отварной / Rice boiled
+                                                </td>
+                                                <td>
+                                                    221 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Картофельное пюре / Mashed potatoes
+                                                </td>
+                                                <td>
+                                                    164 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;50.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Картофель жареный по-деревенски / Potatoes fried in a rural way
+                                                </td>
+                                                <td>
+                                                    336 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Шницель морковный / Carrot schnitzel
+                                                </td>
+                                                <td>
+                                                    104 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;60.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Гречневая каша / Buckwheat porridge
+                                                </td>
+                                                <td>
+                                                    279 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Картофель отварной / Potatoes
+                                                </td>
+                                                <td>
+                                                    125 ккал
+                                                </td>
+                                                <td>
+                                                    150 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;50.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Овощи гриль / Grilled vegetables
+                                                    <div class="small">
+                                                        (баклажаны, кабачки, перец сладкий, помидоры)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    120 ккал
+                                                </td>
+                                                <td>
+                                                    200 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;100.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="mini-three">
+                                    <p class="mb20 align-center">
+                                        Цена комплексного обеда (бизнес-ланча) составляет: <b>120 рублей</b><br>
+                                        Комплексный обед состоит из салата, первого и второго блюда, и напитка
+                                    </p>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Комплексный обед (на сегодня)
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Суп фасолевый с картофелем и овощами / Soup with beans, potatoes and vegetables
+                                                    <div class="small">
+                                                        (картофель, лук, морковь, фасоль, перец, томаты)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    120 ккал
+                                                </td>
+                                                <td>
+                                                    300 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;70.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Капуста тушёная с сосисками / Cabbage stewed with sausages
+                                                    <div class="small">
+                                                        (капуста, морковь, лук, сосиски, томат)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    95 ккал
+                                                </td>
+                                                <td>
+                                                    200 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;80.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Салат «Зимний» / Salad with potato, carrots, green peas and mayonnaise
+                                                    <div class="small">
+                                                        (картофель, морковь, зелёный горошек, майонез)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    185 ккал
+                                                </td>
+                                                <td>
+                                                    100 г
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;40.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Компот из свежемороженых ягод
+                                                    <div class="small">
+                                                        Berry drink (currant)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    143 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="mini-four">
+                                    <p class="mb20 align-center">
+                                        Алкогольные напитки в наличии отсутсвуют.<br>Распространение и употребление алкогольной продукции на территории НИУ ВШЭ запрещено.
+                                    </p>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Напитки
+                                                </th>
+                                                <th style="width:15%;">
+                                                </th>
+                                                <th style="width:10%;"></th>
+                                                <th style="width:10%;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    Компот из свежемороженых ягод
+                                                    <div class="small">
+                                                        Berry drink (currant)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    143 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Компот из сушеных ягод
+                                                    <div class="small">
+                                                        Dried fruits drink
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    115 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Ягодный морс
+                                                    <div class="small">
+                                                        Berry drink
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    120 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Зеленый чай Greenfield (с сахаром / без сахара)
+                                                    <div class="small">
+                                                        Greenfield green tea (with or w/o sugar)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;20.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Черный чай Greenfield (с сахаром / без сахара)
+                                                    <div class="small">
+                                                        Greenfield black tea (with or w/o sugar)
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;20.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Кофе растворимый
+                                                    <div class="small">
+                                                        Sublimated coffee
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    0 ккал
+                                                </td>
+                                                <td>
+                                                    200 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;25.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Газированный напиток Sprite 0.5л
+                                                </td>
+                                                <td>
+                                                    210 ккал
+                                                </td>
+                                                <td>
+                                                    500 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;50.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Газированный напиток Fanta 0.5л
+                                                </td>
+                                                <td>
+                                                    165 ккал
+                                                </td>
+                                                <td>
+                                                    500 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;50.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Газированный напиток Coca-Cola 0.5л
+                                                </td>
+                                                <td>
+                                                    210 ккал
+                                                </td>
+                                                <td>
+                                                    500 мл
+                                                </td>
+                                                <td class="align-right">
+                                                    &#8381;50.00
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                            <!-- Button -->
+                            <div class="mt-40 align-right">
+                                <a href="https://www.hse.ru/mirror/pubs/share/321435987" target="_blank" class="btn btn-mod btn-gray btn-small btn-circle"><i class="fa fa-cloud-download"></i> Скачать меню</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call Action Section -->
+            <section class="page-section bg-dark bg-dark-alfa-50" data-background="images/restaurant/shrimps.jpg">
+                <div class="container relative">
+                    <div class="align-center">
+                        <h3 class="banner-heading font-alt mb-40">Наслаждайтесь незабываемой едой &amp; сервисом</h3>
+                        <div class="local-scroll">
+                            <a href="reservations.html" class="btn btn-mod btn-w btn-medium btn-round">Забронируйте столик</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="small-section bg-gray-lighter footer pb-60">
+                <div class="container">
+                    <div class="row mb-40 align-left">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <!-- Phone -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Звоните нам
+                                        </div>
+                                        <div class="ci-text">
+                                            +7(495)916-88-29
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Email
+                                        </div>
+                                        <div class="ci-text">
+                                            <a href="mailto:miem@hse.ru">miem@hse.ru</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Address -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Наш адрес
+                                        </div>
+                                        <div class="ci-text">
+                                            Москва, Улица Таллинская, д. 34
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Opening Time -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Мы открыты
+                                        </div>
+                                        <div class="ci-text">
+                                            Понедельник-Суббота: 9.00-17.00<br />
+                                            Воскресенье: выходной
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <hr class="mt-0 mb-60 "/>
+                   <!-- Social Links -->
+                   <div class="footer-social-links mb-30">
+                        <a href="https://www.facebook.com/hse.ru" title="Facebook" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://vk.com/miem_hse" title="Вконтакте" target="_blank">
+                            <i class="fa fa-vk"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hse_ru/" title="Instagram" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/SU_HSE" title="Twitter" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" title="Pinterest" target="_blank">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                    <!-- Footer Logo -->
+                    <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
+                        <svg class="control_svg" height="36" viewBox="0 0 18 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.66 0l.134.002h1.336c2.639 0 3.745.464 4.994 1.428 1.819 1.424 2.105 3.492 2.105 4.525 0 1.283-.393 2.638-1.356 3.742-.714.856-1.955 2.097-4.388 2.388-1.663.2-2.891.127-3.506.061v-1.306c.273.038.676.074 1.222.074 1.656 0 2.829-.827 3.543-1.719.81-.983.98-1.909 1.015-2.737h-4.555v-1.282h4.515c-.116-.866-.448-1.528-.985-2.179-1.035-1.283-2.499-1.497-3.462-1.497l-6.505-.002-.768-1.498h6.66zm-6.317 26l.804-1.564v-21.844h3.55v21.82h2.508v-8.523h3.276v8.514h2.838v-3.878c0-2.351-.122-5.622-2.77-7.311l1.542-.566c3.194 1.186 4.791 4.283 4.791 8.362v3.428l.804 1.562h-17.344z" fill="#000"></path>
+                        </svg>
+                    </div>
+                    <!-- Footer Text -->
+                    <div class="footer-text">
+                        <!-- Copyright -->
+                        <div class="footer-copy font-alt">
+                            <a href="https://instagram.com/patsvetov" target="_blank">&copy; Pavel Tsvetov 2019</a>.
+                        </div>
+                        <div class="footer-made">
+                            Сделано с любовью для студентов НИУ ВШЭ.
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Top Link -->
+                    <div class="local-scroll">
+                        <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
+                    </div>
+            </footer>
+        </div>
+
+        <!-- JS imports-->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/gmap3.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/contact-reservations-form.js"></script>
+        <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+        <script type="text/javascript" src="js/jquery.backgroundvideo.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+               var pgurl = window.location.href.substr(window.location.href
+                  .lastIndexOf("/") + 1);
+               $("nav ul li a").each(function() {
+                  if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+                     $(this).addClass("active");
+               })
+            });
+        </script>
+    </body>
+</html>

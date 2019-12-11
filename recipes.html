@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Рецепты</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Pavel Tsvetov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <!-- Favicon import -->
+        <link rel="shortcut icon" href="images/favicon.png">
+
+        <!-- CSS imports-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-responsive.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+    </head>
+
+    <body class="appear-animate">
+        <!-- Page Loader -->
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <!-- Page Wrap -->
+        <div class="page" id="top">
+            <!-- Navigation panel -->
+            <nav class="main-nav dark js-stick">
+                <div class="full-wrapper relative clearfix">
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="index.html" class="logo">
+                            <svg class="control_svg" width="18" height="26" viewBox="0 0 18 26" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66 0l.134.002h1.336c2.639 0 3.745.464 4.994 1.428 1.819 1.424 2.105 3.492 2.105 4.525 0 1.283-.393 2.638-1.356 3.742-.714.856-1.955 2.097-4.388 2.388-1.663.2-2.891.127-3.506.061v-1.306c.273.038.676.074 1.222.074 1.656 0 2.829-.827 3.543-1.719.81-.983.98-1.909 1.015-2.737h-4.555v-1.282h4.515c-.116-.866-.448-1.528-.985-2.179-1.035-1.283-2.499-1.497-3.462-1.497l-6.505-.002-.768-1.498h6.66zm-6.317 26l.804-1.564v-21.844h3.55v21.82h2.508v-8.523h3.276v8.514h2.838v-3.878c0-2.351-.122-5.622-2.77-7.311l1.542-.566c3.194 1.186 4.791 4.283 4.791 8.362v3.428l.804 1.562h-17.344z" fill="#fff"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li>
+                                <a href="menu.html" class="mn-has-sub">Меню<i class="fa fa-angle-down"></i></a>
+                                <ul class="mn-sub mn-has-multi">
+                                    <div class="arrow" style="transform: rotate(45deg);"></div>
+                                    <li class="mn-sub-multi">
+                                        <ul>
+                                            <li>
+                                                <a href="menu.html">Наше меню</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.hse.ru/mirror/pubs/share/321435987" target="_blank">Скачать меню</a>
+                                            </li>
+                                            </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Галерея</a></li>
+                            <li>
+                                <a href="#" class="mn-has-sub">Блог<i class="fa fa-angle-down"></i></a>
+                                    <ul class="mn-sub mn-has-multi">
+                                        <div class="arrow" style="transform: rotate(45deg);"></div>
+                                        <li class="mn-sub-multi">
+                                            <ul>
+                                                <li>
+                                                    <a href="news.html">Новости</a>
+                                                </li>
+                                                <li>
+                                                    <a href="recipes.html">Рецепты</a>
+                                                </li>
+                                                </ul>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li><a href="location.html">Контакты</a></li>
+                            <!-- Button -->
+                            <li>
+                                <a href="reservations.html" target="_blank">
+                                    <span class="link_on_mobile btn btn-mod btn-circle btn-w">
+                                        Бронирование
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Head Section -->
+            <section class="small-section bg-gray-lighter">
+                <div class="relative container align-left">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Рецепты</h1>
+                            <div class="hs-line-4 font-alt black">
+                                Пробуйте изысканные рецепты от наших поваров и у себя дома.
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-30">
+                            <div class="mod-breadcrumbs font-alt align-right">
+                                <a href="#">Главная</a>&nbsp;/&nbsp;<a href="#">Блог</a>&nbsp;/&nbsp;<span>Рецепты</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section -->
+            <section class="page-section">
+                <div class="container relative">
+                    <div class="row">
+                        <!-- Content -->
+                        <div class="col-sm-8">
+                            <!-- Post -->
+                            <div class="blog-item">
+                                <!-- Post Title -->
+                                <h2 class="blog-item-title font-alt"><a href="caesar.html">Салат «Цезарь» традиционный</a></h2>
+                                <!-- Author, Categories, Comments -->
+                                <div class="blog-item-data">
+                                    <a href="#"><i class="fa fa-clock-o"></i>&nbsp;8 Декабря</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-user"></i>&nbsp;Павел Цветов</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <i class="fa fa-folder-open"></i>
+                                    <a href="#">Европейская</a>, <a href="#">Салаты</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-comments"></i>3&nbsp;Комментария</a>
+                                </div>
+                                <!-- Media Gallery -->
+                                <div class="blog-media">
+                                    <ul class="clearlist content-slider">
+                                        <li>
+                                            <img src="images/restaurant/recipies/caesar-post.jpg" alt="" />
+                                        </li>
+                                        <li>
+                                            <img src="images/restaurant/recipies/caesar-01.jpg" alt="" />
+                                        </li>
+                                        <li>
+                                            <img src="images/restaurant/recipies/caesar-02.jpg" alt="" />
+                                        </li>
+                                        <li>
+                                            <img src="images/restaurant/recipies/caesar-03.jpeg" alt="" />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Text Intro -->
+                                <div class="blog-item-body">
+                                    <p>
+                                            Сварите яйца. Обжарьте нарезанный кусочками бекон на сухой сковороде до
+                                            румяной корочки с каждой стороны (3–4 минуты). Выложите на бумажные полотенца,
+                                            чтобы собрать излишки жира.
+                                            Возьмите курицу, удалите кости и кожу и нарежьте мясо.
+                                    </p>
+                                </div>
+                                <!-- Read More Link -->
+                                <div class="blog-item-foot">
+                                    <a href="caesar.html" class="btn btn-mod btn-round  btn-small">Перейти <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <!-- Post -->
+                            <div class="blog-item">
+                                <!-- Blockquote -->
+                                <blockquote class="blog-item-q">
+                                    <p>
+                                        <a><b>10 декабря</b> в столовой МИЭМ НИУ ВШЭ проводится День русской кухни. Красочное национальное меню. Приглашаем всех!</a>
+                                    </p>
+                                </blockquote>
+                                <!-- Author, Categories, Comments -->
+                                <div class="blog-item-data">
+                                    <a href="#"><i class="fa fa-clock-o"></i>&nbsp;2 Декабря</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-user"></i>&nbsp;Андрей Никитин</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <i class="fa fa-folder-open"></i>
+                                    <a href="">Мероприятия</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-comments"></i>&nbsp;0 Комметариев</a>
+                                </div>
+                                <!-- Read More Link -->
+                                <div class="blog-item-foot">
+                                    <a class="btn btn-mod btn-round  btn-small">Перейти <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <!-- Post -->
+                            <div class="blog-item">
+                                <!-- Post Title -->
+                                <h2 class="blog-item-title font-alt"><a>Плов с говядиной рассыпчатый</a></h2>
+                                <!-- Author, Categories, Comments -->
+                                <div class="blog-item-data">
+                                    <a href="#"><i class="fa fa-clock-o"></i>&nbsp;1 Декабря</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-user"></i>&nbsp;Анна Петрова</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <i class="fa fa-folder-open"></i>
+                                    <a href="">Вторые блюда</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-comments"></i>&nbsp;7 Комментариев</a>
+                                </div>
+                                <!-- Media Gallery -->
+                                <div class="blog-media">
+                                        <iframe width="640" height="360" src="https://www.youtube.com/embed/LALhy7YQLKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <!-- Text Intro -->
+                                <div class="blog-item-body">
+                                    <p>
+                                            Не смотря на похожесть рецептов и технологии приготовления,
+                                            плов — блюдо многогранное и разнообразное. Рецептов на самом деле уйма,
+                                            да и вкусы у людей разные. Опять же традиции везде свои. Кто-то делает строго из
+                                            баранины, кто-то использует говядину. Где-то из специй добавляют только кумин,
+                                            а где-то — ядреную смесь из перцев, кориандра и еще кучи всяких трав.
+                                    </p>
+                                </div>
+                                <!-- Read More Link -->
+                                <div class="blog-item-foot">
+                                    <a class="btn btn-mod btn-round  btn-small">Перейти <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <!-- Post -->
+                            <div class="blog-item">
+                                <!-- Post Title -->
+                                <h2 class="blog-item-title font-alt"><a>Новый Год в столовой МИЭМ</a></h2>
+                                <!-- Author, Categories, Comments -->
+                                <div class="blog-item-data">
+                                    <a href="#"><i class="fa fa-clock-o"></i>&nbsp;25 Ноября</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-user"></i>&nbsp;Игорь Петров</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <i class="fa fa-folder-open"></i>
+                                    <a href="">Мероприятия</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-comments"></i>&nbsp;1 Комментарий</a>
+                                </div>
+                                <!-- Text Intro -->
+                                <div class="blog-item-body">
+                                    <p>
+                                        <b>31 декабря</b> - Новый год. В МИЭМ будет проводится большой праздник.
+                                        Сладкий стол (большой пирог). Приглашаем всех желающих на праздничный стол!
+                                    </p>
+                                </div>
+                                <!-- Read More Link -->
+                                <div class="blog-item-foot">
+                                    <a class="btn btn-mod btn-round btn-small">Перейти <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <!-- Post -->
+                            <div class="blog-item">
+                                <!-- Post Title -->
+                                <h2 class="blog-item-title font-alt"><a>Суп-пюре грибной с шампиньонами и гренками</a></h2>
+                                <!-- Author, Categories, Comments -->
+                                <div class="blog-item-data">
+                                    <a href="#"><i class="fa fa-clock-o"></i>&nbsp;20 Ноября</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-user"></i>&nbsp;Валерия Шевченко</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <i class="fa fa-folder-open"></i>
+                                    <a href="">Супы</a>
+                                    <span class="separator">&nbsp;</span>
+                                    <a href="#"><i class="fa fa-comments"></i>&nbsp;2 Комментария</a>
+                                </div>
+                                <!-- Image -->
+                                <div class="blog-media">
+                                    <a><img src="images/restaurant/recipies/soup.jpg" alt="" /></a>
+                                </div>
+                                <!-- Text Intro -->
+                                <div class="blog-item-body">
+                                    <p>
+                                            Нежное сочетание вкуса поджаренных грибов со сливками - ммм...
+                                            Приготовьте такой суп на обед и порадуйте своих близких изысканным блюдом.
+                                            Рецепт грибного супа-пюре из шампиньонов - вам в помощь.
+                                    </p>
+                                </div>
+                                <!-- Read More Link -->
+                                <div class="blog-item-foot">
+                                    <a class="btn btn-mod btn-round  btn-small">Перейти <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <!-- Pagination -->
+                            <div class="pagination">
+                                <a href="#"><i class="fa fa-angle-left"></i></a>
+                                <a href="#" class="active">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a class="no-active">...</a>
+                                <a href="#">7</a>
+                                <a href="#"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Sidebar -->
+                        <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
+                            <!-- Search Widget -->
+                            <div class="widget">
+                                <form class="form-inline form" role="form">
+                                    <div class="search-wrap">
+                                        <button class="search-button animate" type="submit" title="Начать поиск">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                        <input type="text" class="form-control search-field" placeholder="Поиск...">
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Категории</h5>
+                                <div class="widget-body">
+                                    <ul class="clearlist widget-menu">
+                                        <li>
+                                            <a href="#" title="">Салаты</a>
+                                            <small>
+                                                - 10
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Закуски</a>
+                                            <small>
+                                                - 4
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Вторые блюда</a>
+                                            <small>
+                                                - 15
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Супы</a>
+                                            <small>
+                                                - 7
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Дессерты</a>
+                                            <small>
+                                                - 9
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Выпечка</a>
+                                            <small>
+                                                - 11
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Напитки</a>
+                                            <small>
+                                                - 7
+                                            </small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Хэштэги</h5>
+                                <div class="widget-body">
+                                    <div class="tags">
+                                        <a href="">Салаты</a>
+                                        <a href="">Мероприятия</a>
+                                        <a href="">Рецепт</a>
+                                        <a href="">Супы</a>
+                                        <a href="">Выпечка</a>
+                                        <a href="">Дессерты</a>
+                                        <a href="">Диетические</a>
+                                        <a href="">Вегетрианские</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Последние новости</h5>
+                                <div class="widget-body">
+                                    <ul class="clearlist widget-posts">
+                                        <li class="clearfix">
+                                            <a href=""><img src="images/blog/previews/post-prev-1.jpg" alt="" class="widget-posts-img" /></a>
+                                            <div class="widget-posts-descr">
+                                                <a href="#" title="">Minimalistic Design Forever</a>
+                                                Posted by John Doe 7 Mar
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href=""><img src="images/blog/previews/post-prev-2.jpg" alt="" class="widget-posts-img" /></a>
+                                            <div class="widget-posts-descr">
+                                                <a href="#" title="">Ipsum dolor sit amet, consectetur adipiscing elit</a>
+                                                Posted by John Doe 7 Mar
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href=""><img src="images/blog/previews/post-prev-3.jpg" alt="" class="widget-posts-img" /></a>
+                                            <div class="widget-posts-descr">
+                                                <a href="#" title="">New Web Design Trends in 2015 year</a>
+                                                Posted by John Doe 7 Mar
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href=""><img src="images/blog/previews/post-prev-4.jpg" alt="" class="widget-posts-img" /></a>
+                                            <div class="widget-posts-descr">
+                                                <a href="#" title="">Hipster’s Style in Web Design and Logo</a>
+                                                Posted by John Doe 7 Mar
+                                            </div>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href=""><img src="images/blog/previews/post-prev-5.jpg" alt="" class="widget-posts-img" /></a>
+                                            <div class="widget-posts-descr">
+                                                <a href="#" title="">Duis tristique condimentum nulla, bibendum consectetu</a>
+                                                Posted by John Doe 7 Mar
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Комментарии</h5>
+                                <div class="widget-body">
+                                    <ul class="clearlist widget-comments">
+                                        <li>
+                                            John Doe on <a href="#" title="">Lorem ipsum dolor sit amet</a>
+                                        </li>
+                                        <li>
+                                            Emma Johnson on <a href="#" title="">Suspendisse accumsan interdum tellus</a>
+                                        </li>
+                                        <li>
+                                            John Doe on <a href="#" title="">Praesent ultricies ut ipsum</a>
+                                        </li>
+                                        <li>
+                                            Mark Deen on <a href="#" title="">Vivamus malesuada vel nulla vulputate</a>
+                                        </li>
+                                        <li>
+                                            Sam Brin on <a href="#" title="">Aenean auctor egestas auctor</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Widget -->
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Архив рецептов</h5>
+                                <div class="widget-body">
+                                    <ul class="clearlist widget-menu">
+                                        <li>
+                                            <a href="#" title="">Декабрь 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Ноябрь 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Октябрь 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">Сентябрь 2019</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section bg-dark bg-dark-alfa-50" data-background="images/restaurant/shrimps.jpg">
+                <div class="container relative">
+                    <div class="align-center">
+                        <h3 class="banner-heading font-alt mb-40">Наслаждайтесь незабываемой едой &amp; сервисом</h3>
+                        <div class="local-scroll">
+                            <a href="reservations.html" class="btn btn-mod btn-w btn-medium btn-round">Забронируйте столик</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="small-section bg-gray-lighter footer pb-60">
+                <div class="container">
+                    <div class="row mb-40 align-left">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <!-- Phone -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Звоните нам
+                                        </div>
+                                        <div class="ci-text">
+                                            +7(495)916-88-29
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Email
+                                        </div>
+                                        <div class="ci-text">
+                                            <a href="mailto:miem@hse.ru">miem@hse.ru</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Address -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Наш адрес
+                                        </div>
+                                        <div class="ci-text">
+                                            Москва, Улица Таллинская, д. 34
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Opening Time -->
+                                <div class="col-sm-6 col-lg-3 pt-20 pb-20 pb-xs-0">
+                                    <div class="contact-item">
+                                        <div class="ci-icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <div class="ci-title font-alt">
+                                            Мы открыты
+                                        </div>
+                                        <div class="ci-text">
+                                            Понедельник-Суббота: 9.00-17.00<br />
+                                            Воскресенье: выходной
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <hr class="mt-0 mb-60 "/>
+                    <!-- Social Links -->
+                    <div class="footer-social-links mb-30">
+                            <a href="https://www.facebook.com/hse.ru" title="Facebook" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://vk.com/miem_hse" title="Вконтакте" target="_blank">
+                                <i class="fa fa-vk"></i>
+                            </a>
+                            <a href="https://www.instagram.com/hse_ru/" title="Instagram" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/SU_HSE" title="Twitter" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" title="Pinterest" target="_blank">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
+                            <svg class="control_svg" height="36" viewBox="0 0 18 26" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66 0l.134.002h1.336c2.639 0 3.745.464 4.994 1.428 1.819 1.424 2.105 3.492 2.105 4.525 0 1.283-.393 2.638-1.356 3.742-.714.856-1.955 2.097-4.388 2.388-1.663.2-2.891.127-3.506.061v-1.306c.273.038.676.074 1.222.074 1.656 0 2.829-.827 3.543-1.719.81-.983.98-1.909 1.015-2.737h-4.555v-1.282h4.515c-.116-.866-.448-1.528-.985-2.179-1.035-1.283-2.499-1.497-3.462-1.497l-6.505-.002-.768-1.498h6.66zm-6.317 26l.804-1.564v-21.844h3.55v21.82h2.508v-8.523h3.276v8.514h2.838v-3.878c0-2.351-.122-5.622-2.77-7.311l1.542-.566c3.194 1.186 4.791 4.283 4.791 8.362v3.428l.804 1.562h-17.344z" fill="#000"></path>
+                            </svg>
+                        </div>
+                        <!-- Footer Text -->
+                        <div class="footer-text">
+                            <!-- Copyright -->
+                            <div class="footer-copy font-alt">
+                                <a href="https://instagram.com/patsvetov" target="_blank">&copy; Pavel Tsvetov 2019</a>.
+                            </div>
+                            <div class="footer-made">
+                                Сделано с любовью для студентов НИУ ВШЭ.
+                            </div>
+                        </div>
+            </footer>
+        </div>
+
+        <!-- JS imports-->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/gmap3.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/contact-reservations-form.js"></script>
+        <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+        <script type="text/javascript" src="js/jquery.backgroundvideo.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+               var pgurl = window.location.href.substr(window.location.href
+                  .lastIndexOf("/") + 1);
+               $("nav ul li a").each(function() {
+                  if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+                     $(this).addClass("active");
+               })
+            });
+        </script>
+    </body>
+</html>
