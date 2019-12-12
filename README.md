@@ -19,7 +19,7 @@ git clone https://github.com/yaiestura/hsedining_web.git
 ## Deployment
 
 The website is deployed to Netlify
-> https://hsemiem-dining.netlify.com/
+> https://miemhse-dining.netlify.com/
 
 ## Built With
 
